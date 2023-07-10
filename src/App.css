@@ -1,0 +1,55 @@
+.todo-app {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.todo-app h1 {
+  text-align: center;
+}
+
+.todo-app input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-app button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.todo-app button:hover {
+  background-color: #45a049;
+}
+
+
+
+.todo-app .completed {
+  color: green;
+}
+
+.todo-app .pending {
+  color: red;
+}
+
+.todo-app .completed::before {
+  /* content: '\2713'; Unicode character for checkmark */
+  margin-right: 5px;
+}
+
+.todo-app .pending::before {
+  /* content: '\2212'; Unicode character for minus sign */
+  margin-right: 5px;
+}
+
+
+.remove-button{
+  background-color: #ea3511 !important;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
